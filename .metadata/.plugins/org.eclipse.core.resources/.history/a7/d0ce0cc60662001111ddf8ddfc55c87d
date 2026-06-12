@@ -1,0 +1,5 @@
+package com.example.inventario.config;
+
+public class DataInitializer {
+
+}

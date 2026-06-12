@@ -1,0 +1,14 @@
+# Usar JDK 21 (coincide con tu pom.xml)
+FROM amazoncorretto:21-al2023-jdk
+
+# Crear directorio de trabajo
+WORKDIR /app
+
+# Copiar el JAR compilado de tu proyecto
+COPY target/*.jar app.jar
+
+# Exponer el puerto de Spring Boot
+EXPOSE 8080
+
+# Ejecutar la aplicación
+ENTRYPOINT ["java", "-jar", "app.jar"]

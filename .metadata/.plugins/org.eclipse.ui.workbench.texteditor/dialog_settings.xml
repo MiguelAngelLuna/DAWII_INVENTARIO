@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="hasShownOverlayPopupBefore" value="true"/>
+	<section name="java.lang.Class">
+		<item key="replaceBarOpen" value="false"/>
+		<list key="findhistory">
+			<item value="spring-boot-starter-test"/>
+			<item value=".requestMatchers(&quot;/api/productos/**&quot;).permitAll()"/>
+			<item value="PreAuthorize"/>
+			<item value=" &lt;scope&gt;test&lt;/scope&gt;"/>
+		</list>
+	</section>
+</section>
